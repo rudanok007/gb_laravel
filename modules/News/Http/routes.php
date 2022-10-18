@@ -13,4 +13,5 @@ Route::group([
         'uses' => 'NewsController@getNews',
     ]);
 
+
 });
