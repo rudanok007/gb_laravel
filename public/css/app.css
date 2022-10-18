@@ -1,0 +1,24 @@
+body {
+    background-image: url("../img/background.jpg");
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.card {
+    min-height: 550px;
+    position: relative;
+}
+
+.card-img image {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 10%;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
